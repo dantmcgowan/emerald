@@ -1,14 +1,14 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: Dantmcgowan | Rails, Postgres, SFDC
+description: "A host of application technology services/"
+url: "http://github.com/dantmcgowan"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Dan McGowan"
+  email: "dantmcgowan@me.com"
+  url: "http://github.com/dantmcgowan"
 
 # Build settings
-baseurl: /emerald # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
@@ -33,6 +33,6 @@ gems:
 version: "1.1.0"
 
 # Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+custom_header: true
+custom_nav_footer: true
+reverse: true
